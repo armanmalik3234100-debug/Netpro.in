@@ -1,2 +1,0 @@
-# Netpro.in
-Hi friends 
