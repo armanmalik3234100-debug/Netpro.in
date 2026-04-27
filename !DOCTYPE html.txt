@@ -1,0 +1,118 @@
+04.27 1:03 PM
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netpro Internet | Jasola's #1 Fiber Service</title>
+    <style>
+        :root {
+            --primary: #1a237e;
+            --whatsapp: #25D366;
+            --accent: #ff9800;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #f8f9fa; color: #333; }
+        /* Hero Section */
+        header { 
+            background: linear-gradient(135deg, var(--primary) 0%, #3949ab 100%); 
+            color: white; padding: 60px 20px; text-align: center; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px;
+        }
+        .logo { font-size: 3rem; font-weight: 800; letter-spacing: -1px; margin: 0; }
+        .tagline { font-size: 1.2rem; opacity: 0.9; margin-top: 10px; }
+        .container { max-width: 1100px; margin: -40px auto 40px; padding: 0 20px; }
+        /* Plans Styling */
+        .plan-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
+        .plan-card { 
+            background: white; border-radius: 20px; padding: 30px; text-align: center; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1); border: 1px solid #eee; transition: 0.3s;
+            position: relative; overflow: hidden;
+        }
+        .plan-card:hover { transform: translateY(-10px); }
+        .popular-badge { 
+            background: var(--accent); color: white; position: absolute; top: 15px; right: -30px; 
+            transform: rotate(45deg); padding: 5px 40px; font-size: 12px; font-weight: bold;
+        }
+        .speed { font-size: 2.5rem; font-weight: bold; color: var(--primary); margin: 10px 0; }
+        .price { font-size: 1.8rem; color: #555; margin-bottom: 20px; }
+        .price span { font-size: 1rem; color: #888; }
+        /* Booking Button */
+        .btn-book { 
+            display: flex; align-items: center; justify-content: center; 
+            background: var(--whatsapp); color: white; text-decoration: none; 
+            padding: 15px; border-radius: 12px; font-weight: bold; font-size: 1.1rem; transition: 0.3s;
+        }
+        .btn-book:hover { background: #128C7E; box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4); }
+        .btn-book img { width: 24px; margin-right: 10px; }
+        /* Info Section */
+        .info-section { background: white; border-radius: 20px; padding: 40px; margin-top: 40px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        .features { display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 30px; }
+        .feat { flex: 1; min-width: 150px; margin: 10px; padding: 10px; }
+        .feat h4 { color: var(--primary); margin-bottom: 5px; }
+        footer { text-align: center; padding: 40px; color: #666; background: #eee; margin-top: 50px; }
+    </style>
+</head>
+<body>
+<header>
+    <h1 class="logo">NETPRO</h1>
+    <p class="tagline">Ultra-Fast Fiber Optic | Jasola Village & Jamia Nagar</p>
+</header>
+<div class="container">
+    <div class="plan-grid">
+        <div class="plan-card">
+            <div class="popular-badge">POPULAR</div>
+            <h3>Monthly Fast</h3>
+            <div class="speed">100 Mbps</div>
+            <div class="price">₹600 <span>/ Month</span></div>
+            <p>✅ Unlimited Data<br>✅ High Speed Buffer-free</p>
+            <a href="https://wa.me/917838532823?text=Hello%20Netpro!%20Mujhe%20100Mbps%20(600%20rs)%20plan%20book%20karna%20hai." class="btn-book">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"> WhatsApp Booking
+            </a>
+        </div>
+        <div class="plan-card">
+            <h3>Pro Gamer</h3>
+            <div class="speed">300 Mbps</div>
+            <div class="price">₹1000 <span>/ Month</span></div>
+            <p>✅ Best for 4K Streaming<br>✅ Low Ping for Gaming</p>
+            <a href="https://wa.me/917838532823?text=Hello%20Netpro!%20Mujhe%20300Mbps%20(1000%20rs)%20plan%20book%20karna%20hai." class="btn-book">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"> WhatsApp Booking
+            </a>
+        </div>
+        <div class="plan-card" style="border: 2px solid var(--accent);">
+            <div class="popular-badge" style="background:#d32f2f">BIG SAVER</div>
+            <h3>6 Months Pack</h3>
+            <div class="speed">100 Mbps</div>
+            <div class="price">₹3000 <span>(₹500/Month)</span></div>
+            <p style="color: #d32f2f; font-weight: bold;"> Free Installation Included!</p>
+            <a href="https://wa.me/917838532823?text=Hello%20Netpro!%20Mujhe%206%20Month%20Saver%20Offer%20book%20karna%20hai." class="btn-book" style="background: var(--accent);">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"> Book Special Offer
+            </a>
+        </div>
+    </div>
+    <div class="info-section">
+        <h2>Kyun Chunein Netpro Fiber?</h2>
+        <div class="features">
+            <div class="feat">
+                <h4>⚡ Fast Speed</h4>
+                <p>99.9% Uptime Connection</p>
+            </div>
+            <div class="feat">
+                <h4>🛠️ Quick Setup</h4>
+                <p>24 Ghante mein installation</p>
+            </div>
+            <div class="feat">
+                <h4> 24/7 Support</h4>
+                <p>Local team hamesha taiyar</p>
+            </div>
+        </div>
+        <hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
+        <h3> Hamara Office</h3>
+        <p>D-621 Ground Floor, Pocket-11, Janta Flat, Jasola Village, South Delhi-110025</p>
+        <p><strong>Contact:</strong> 7838532823 | 9821170184</p>
+    </div>
+</div>
+<footer>
+    &copy; 2026 Netpro Internet Service. All Rights Reserved.
+</footer>
+</body>
+</html>
+
